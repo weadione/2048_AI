@@ -1,4 +1,5 @@
 #include "GameManager.h"
+#include <Windows.h>
 
 // 게임 초기화
 void GameManager::init()
@@ -39,7 +40,10 @@ void GameManager::run(Player * player)
 		// 게임 판을 화면에 출력
 		if (DEBUG)
 		{
+			system("cls");
+			
 			std::cout << gameBoard << std::endl;
+			Sleep(100);
 		}
 
 
