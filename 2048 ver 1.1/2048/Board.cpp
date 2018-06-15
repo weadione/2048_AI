@@ -1,9 +1,11 @@
 #include "Board.h"
+//#include <ctime>
 
 Board::Board()
 {
 	// 랜덤 시드 설정.
 	srand((int)board);
+	//srand((unsigned int)time(NULL));
 }
 
 void Board::init()

@@ -43,7 +43,7 @@ void GameManager::run(Player * player)
 			system("cls");
 			
 			std::cout << gameBoard << std::endl;
-			Sleep(100);
+			//Sleep(2000);
 		}
 
 
