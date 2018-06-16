@@ -1,7 +1,5 @@
 #include "GameManager.h"
 #include "P2013111995.h"
-#include "P2017112238.h"
-
 
 int main()
 {
@@ -9,7 +7,7 @@ int main()
 	GameManager game;
 
 	// 게임 시작
-	game.run(new P2017112238());
+	game.run(new P2013111995());
 
 	return 0;
 }
