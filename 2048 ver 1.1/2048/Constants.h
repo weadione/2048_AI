@@ -3,7 +3,7 @@
 // 원래 값: BOARD_SIZE = 4, MAX_TURN = 10000
 
 // 디버그 모드. 한 턴마다 게임 판을 출력한다.
-const bool DEBUG = true;
+const bool DEBUG = false;
 // 게임 판의 크기
 const int BOARD_SIZE = 4;
 // 최대 플레이 가능한 턴 수.

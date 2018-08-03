@@ -1,3 +1,15 @@
-﻿  GameManager.cpp
-  2048.vcxproj -> C:\Users\antst\Downloads\심화프로그래밍 프로젝트\2048\Debug\2048.exe
-  2048.vcxproj -> C:\Users\antst\Downloads\심화프로그래밍 프로젝트\2048\Debug\2048.pdb (Full PDB)
+﻿  Board.cpp
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\board.cpp(198): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\board.cpp(201): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  GameManager.cpp
+  P2013111995.cpp
+  P2017112238.cpp
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(30): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(47): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(55): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(65): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(298): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+d:\desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\2048\p2017112238.cpp(301): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  main.cpp
+  코드를 생성하고 있습니다...
+  2048.vcxproj -> D:\Desktop\이서영\대학\수업\2학년\심화프로그래밍\기말 텀 프로젝트\2048 ver 1.1\Debug\2048.exe

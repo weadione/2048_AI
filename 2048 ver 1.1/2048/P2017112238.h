@@ -1,6 +1,7 @@
 #pragma once
 #include "Player.h"
 #include "Board.h"
+#include <limits>
 using namespace std;
 
 class CloneBoard
@@ -32,18 +33,35 @@ public:
 
 	// getter
 	int getBoardXY(int x, int y);
-private:
+
+	//비어있는 칸에 순차적으로 2 or 4블록생성
+	bool putBlock();
+
+	void setValue(double nodeValue);
+
+	double getValue();
+
+	void resetValue();
+
+	bool put2;
+	vector<Point> emptyCells;
+	//모든 빈칸에 2or4를 추가해보기위해 필요한 변수
+	int numEmptyCells;
+	// 실제 게임 판
+	int board[BOARD_SIZE][BOARD_SIZE];
 	// 비어있는 칸을 리턴.
 	std::vector<Point> getEmptyCells();
 
+private:
 	// 실제 shift하는 함수.
 	std::vector<int> shift(std::vector<int> cells);
 
-	// 실제 게임 판
-	int board[BOARD_SIZE][BOARD_SIZE];
-
-	// 게임 점수. 두 블럭을 합쳐서 새로운 블럭 생성 시마다 더해짐.
+	// 게임 점수. 블록의 위치에 따른 점수를 기준으로 계산됨
 	int score;
+
+	double value;
+	
+	void calculateScore();
 };
 
 class P2017112238 : public Player
@@ -58,7 +76,10 @@ private:
 	// 디버깅을 위한 문자열로 변환.
 	char* Action_Debug[4] = { "MOVE_UP, 위로 이동", "MOVE_LEFT, 왼쪽으로 이동" , "MOVE_RIGHT, 오른쪽으로 이동" , "MOVE_DOWN, 아래로 이동" };
 	
-	CloneBoard clone1;
-	CloneBoard clone2;
+	CloneBoard board0, board1, board2, board3;
+	int first_M, second_M, best_M, samemove;
+	double best_Value;
+	bool ableMove;
+	int alpha, beta;
 };
 
